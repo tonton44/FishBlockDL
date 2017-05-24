@@ -1,3 +1,7 @@
+imie_user:
+    resource: "@IMIEUserBundle/Resources/config/routing.yml"
+    prefix:   /
+
 imie_ficheblock:
     resource: "@IMIEFicheblockBundle/Resources/config/routing.yml"
     prefix:   /

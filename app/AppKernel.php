@@ -18,6 +18,7 @@ class AppKernel extends Kernel
             new AppBundle\AppBundle(),
             new IMIE\FicheblockBundle\IMIEFicheblockBundle(),
             new FOS\UserBundle\FOSUserBundle(),
+            new IMIE\UserBundle\IMIEUserBundle(),
         ];
         
         
