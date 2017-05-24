@@ -1,3 +1,18 @@
+imie_ficheblock:
+    resource: "@IMIEFicheblockBundle/Resources/config/routing.yml"
+    prefix:   /
+
 app:
     resource: '@AppBundle/Controller/'
     type: annotation
+    
+login:
+    path: /login
+    defaults:
+        _controller: IMIEUserBundle:Security:login
+        
+login_check:
+    path: /login_check
+    
+logout:
+    path: /logout
